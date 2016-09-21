@@ -1,0 +1,9 @@
+{
+    "package_name": "cookiecutter-click-cli",
+    "package_slug": "{{ cookiecutter.package_name.lower().replace('-', '_') }}",
+    "package_description": "",
+    "author_name": "Daniel Hosterman",
+    "author_email": "daniel.hosterman@gmail.com",
+    "package_version": "0.1.0",
+    "package_url": "https://github.com/dhosterman/{{ cookiecutter.package_name }}"
+}
