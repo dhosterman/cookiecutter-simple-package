@@ -7,6 +7,7 @@ setuptools.setup(
     name = "{{ cookiecutter.package_name }}",
     version = "{{ cookiecutter.package_version }}",
     url = "{{ cookiecutter.package_url }}",
+    license = "{{ cookiecutter.license }}",
     author = "{{ cookiecutter.author_name }}",
     author_email = "{{ cookiecutter.author_email }}",
     description = "{{ cookiecutter.package_description }}",
@@ -19,7 +20,6 @@ setuptools.setup(
         "Programming Language :: Python 2",
         "Programming Language :: Python 2.7",
         "Programming Language :: Python 3",
-        "Programming Language :: Python 3.4"
         "Programming Language :: Python 3.5"
     ]
 )
